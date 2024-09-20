@@ -953,5 +953,6 @@ vim.opt.relativenumber = true -- relative line numbers
 vim.opt.wrap = false -- wrap lines
 
 vim.cmd [[ set guicursor= ]]
+vim.cmd 'let $PATH = $PATH . ":" . expand("$HOME/.opam/5.2.0/bin")'
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
